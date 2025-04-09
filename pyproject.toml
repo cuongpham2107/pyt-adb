@@ -1,0 +1,17 @@
+[project]
+name = "pyt-adb"
+version = "0.1.1"
+description = "Thư viện Python để giao tiếp với ADB (Android Debug Bridge)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "subprocess32; python_version < '3.5'",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/cuongpham2107/pyt-adb"
+"Documentation" = "https://developer.android.com/tools/adb"
